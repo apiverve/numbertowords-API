@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/numbertowords",
+  "version": "1.0.0",
+  "description": "Number to Words is a simple tool for converting numbers to words. It returns the number in words. It can also do the reverse, and convert words to numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/numbertowords-API.git"
+  },
+  "keywords": [
+    "number to words"," number conversion"," number to words api"," number conversion api"," number to words tool"," number conversion tool"," number to words software"," number conversion software"," number to words service"," number conversion service"," number to words library"," number conversion library"," number to words sdk"," number conversion sdk"," number to words code"," number conversion code"," number to words script"," number conversion script"," number to words program"," number conversion program"," number to words application"," number conversion application"," number to words app"," number conversion app"," number to words utility"," number conversion utility"," number to words helper"," number conversion helper"," number to words helper tool"," number conversion helper tool"," number to words helper software"," number conversion helper software"," number to words helper service"," number conversion helper service"," number to words helper library"," number conversion helper library"," number to words helper sdk"," number conversion helper sdk"," number to words helper code"," number conversion helper code"," number to words helper script"," number conversion helper script"," number to words helper program"," number conversion helper program"," number to words helper application"," number conversion helper application"," number to words helper app"," number conversion helper app"," number to words helper tool"," number conversion helper tool"," number to words helper utility"," number conversion helper utility"," number to words helper"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/numbertowords-API/issues"
+  },
+  "homepage": "https://github.com/apiverve/numbertowords-API",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "3.3.2",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  }
+}
