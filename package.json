@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/numbertowords",
-  "version": "1.0.2",
-  "description": "Number to Words is a simple tool for converting numbers to words. It returns the number in words. It can also do the reverse, and convert words to numbers",
+  "version": "1.0.3",
+  "description": "Number to Words is a simple tool for converting numbers to words. It returns the number in words.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
