@@ -1,7 +1,7 @@
 Number to Words API
 ============
 
-Number to Words is a simple tool for converting numbers to words. It returns the number in words. It can also do the reverse, and convert words to numbers
+Number to Words is a simple tool for converting numbers to words. It returns the number in words.
 
 ![Build Status](https://img.shields.io/badge/build-passing-green)
 ![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
