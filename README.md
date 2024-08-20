@@ -81,7 +81,8 @@ api.execute(query, function (error, data) {
       "seven",
       "five"
     ]
-  }
+  },
+  "code": 200
 }
 ```
 
