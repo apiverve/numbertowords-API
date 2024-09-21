@@ -48,7 +48,7 @@ Using the API client, you can perform requests to the API.
 
 ```
 var query = {
-  number: 975
+  number: 975.07
 };
 ```
 
@@ -71,8 +71,8 @@ api.execute(query, function (error, data) {
   "status": "ok",
   "error": null,
   "data": {
-    "number": "975",
-    "words": "nine hundred seventy-five",
+    "number": "975.07",
+    "words": "nine hundred seventy-five point zero seven",
     "ordinal": "nine hundred seventy-fifth",
     "numberOfDigits_numeric": 3,
     "numberOfDigits_words": "three",
@@ -80,7 +80,16 @@ api.execute(query, function (error, data) {
       "nine",
       "seven",
       "five"
-    ]
+    ],
+    "afterDecimal": {
+      "number": "07",
+      "words": [
+        "zero",
+        "seven"
+      ],
+      "numberOfDigits_numeric": 2,
+      "numberOfDigits_words": "two"
+    }
   },
   "code": 200
 }
